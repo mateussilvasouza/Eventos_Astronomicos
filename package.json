@@ -12,7 +12,7 @@
     "url": "git+https://github.com/mateussilvasouza/Eventos_Astronomicos.git"
   },
   "author": "Mateus Silva Souza <Mathheussilvasouza@gmail.com>(https://github.com/mateussilvasouza)",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/mateussilvasouza/Eventos_Astronomicos/issues"
   },
