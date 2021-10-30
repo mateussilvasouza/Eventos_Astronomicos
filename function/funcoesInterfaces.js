@@ -1,4 +1,4 @@
-import { verificaIntensidade, verificaHemisferio, inverteMesDia } from "./funcoesLogicas";
+import { verificaIntensidade, verificaHemisferio, inverteMesDia } from "./funcoesLogicas.js";
 
 const imprimeListaChuva = (listaChuva) =>{
   console.log('\nNome do Meteoro'.padEnd(29," ")+'- Intensidade'.padEnd(11," ")+' - Hemisfério'.padEnd(10," ")+' - Período');
