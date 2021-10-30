@@ -1,4 +1,4 @@
-import { verificaIntensidade, verificaHemisferio, inverteMesDia } from "./funcoesLogicas.js";
+import { verificaIntensidade, verificaHemisferio, inverteMesDia } from "./funcoesUtilitarias.js";
 
 const imprimeListaChuva = (listaChuva) =>{
   console.log('\nNome do Meteoro'.padEnd(29," ")+'- Intensidade'.padEnd(11," ")+' - Hemisfério'.padEnd(10," ")+' - Período');
@@ -12,7 +12,7 @@ const imprimeChuva=(chuva)=>{
     let intensidade = verificaIntensidade(chuva.intensidade);
     intensidade = intensidade.padEnd(11," ");
 
-    let hemisferio = verificaHemisferio(chuva.hemisferio);
+    let hemisferio = verificaHemisferio(chuva.declinacao);
     hemisferio = hemisferio.padEnd(10," ");
 
     const data_inicio= inverteMesDia(chuva.inicio);
