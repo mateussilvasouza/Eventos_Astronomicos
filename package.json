@@ -1,6 +1,6 @@
 {
   "type": "module",
-  "name": "Mateus Silva Souza",
+  "name": "projeto-estudo",
   "description": "Projeto com fins de aprendizado criado para demonstrar eventos astronomicos.",
   "version": "1.0.0",
   "main": "index.js",
