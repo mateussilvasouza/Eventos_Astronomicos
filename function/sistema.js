@@ -1,6 +1,7 @@
 
 const dataAtual = new Date();
 
+//verifica as chuvas ocorrendo na data atual
 export const verificaChuvasOcorrendo = (chuva) => {
     const anoAtual = dataAtual.getFullYear();
 
@@ -14,6 +15,7 @@ export const verificaChuvasOcorrendo = (chuva) => {
     return (dataInicio >= dataAtual && dataFim <= dataAtual);
 };
 
+//verifica as próximas chuvas que irão ocorrer
 export const verificaProximasChuvas = (chuva) => {
     const anoAtual = dataAtual.getFullYear();
 

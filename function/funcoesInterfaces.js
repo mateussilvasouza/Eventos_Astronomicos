@@ -1,11 +1,13 @@
 import { verificaIntensidade, verificaHemisferio, inverteMesDia } from "./funcoesUtilitarias.js";
 
+//imprimeListaChuva recebe um array e percorre cada elemento executando a função imprimeChuva
 const imprimeListaChuva = (listaChuva) =>{
   console.log('\nNome do Meteoro'.padEnd(29," ")+'- Intensidade'.padEnd(11," ")+' - Hemisfério'.padEnd(10," ")+' - Período');
   
   listaChuva.forEach(imprimeChuva);
 }
 
+//imprimeChuva recebe um objeto e imprime cada propriedade desse objeto
 const imprimeChuva=(chuva)=>{
     const nome = chuva.nome.padEnd(27," ");
 

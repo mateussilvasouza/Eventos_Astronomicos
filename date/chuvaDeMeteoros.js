@@ -1,3 +1,5 @@
+
+//lista de chuvas de meteoros existentes
 const chuvasDeMeteoros = [
     { nome: 'Alfa Centaurídeos',          inicio: '01/28', fim: '02/21', pico: 'Fev 8',   ascencao: 210,  declinacao: -59,  velocidade: 56, thz: '6',        intensidade: 'Média'},
     { nome: 'Gama Normídeos',             inicio: '02/25', fim: '03/22', pico: 'Mar 14',  ascencao: 239,  declinacao: -50,  velocidade: 56, thz: '6',        intensidade: 'Média'},

@@ -1,4 +1,5 @@
 
+//verifica intensidade da chuva de meteoros
 export const verificaIntensidade = (intensidade) =>{
     let novaIntensidade = "1 (Fraca)";
 
@@ -13,8 +14,10 @@ export const verificaIntensidade = (intensidade) =>{
     return novaIntensidade;
 }
 
+//verifica hemisferio em que ocorre a chuva
 export const verificaHemisferio = (declinacao) => (declinacao >= 0) ? "Norte" : "Sul";
 
+//inverte a posição da data e hora
 export const inverteMesDia = (mesDia) => {
     const data= mesDia.split("/");
     return `${data[1]} / ${data[0]}`;
